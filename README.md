@@ -14,3 +14,11 @@
 ```shell
 sh run.sh
 ```
+
+
+### Troubleshooting
+If you have problems on in Windows with PortAudio used by vidstream library, try this:
+```shell
+pip install pipwin
+pipwin install pyaudio
+```
